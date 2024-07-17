@@ -1,0 +1,409 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.layout{
+    display: grid;
+    grid-template-columns: 275px auto 350px;
+    margin: 0 auto;
+    max-width: 1500px;    
+}
+
+.leftbar{
+    height: 100vh;
+    width: 150px;
+    line-height: 5;
+    /* overflow-y: scroll; */
+    position: fixed;
+    margin-left: 30px;
+}
+
+.icon4{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    height: 60px;
+    margin-right: 20px;
+    border-radius: 20px;
+    gap: 5px;
+    cursor: pointer;
+    font-size: 20px;
+}
+.icon4:hover{
+    background-color: rgb(220, 240, 240);
+}
+.icon4 a{
+    text-decoration: none;
+    color: black;
+}
+.btnpost{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    height: 50px;
+    border: none;
+    border-radius: 30px;
+    font-size: 17px;
+    font-weight: bold;
+    background-color:rgb(29,155,240);
+    color: white;
+}
+.btnpost:hover{
+   background-color: rgb(80, 80, 238);
+   transition: all 1s ease-out;
+  
+}
+.iconu{
+    color: #1da0f2;
+}
+.img{
+    border-radius: 60%;
+    height:50px;
+    width:50px;
+    margin-top: 50px;
+}
+
+/* .sidebar-menu{
+    margin-left: 50px; 
+   display: block;
+   justify-content: center;
+   align-items: center; */
+  
+     
+/* }.icon1:hover{
+    color: tomato;
+    cursor: pointer; */
+  
+/* .icon2:hover{
+    color: tomato;
+    cursor: pointer;
+}.icon3:hover{
+    color: tomato;
+    cursor: pointer;
+}.icon4:hover{
+    color: tomato;
+    cursor: pointer;
+}.icon5:hover{
+    cursor: pointer;
+}
+.icon5 a{
+    color:black;
+    text-decoration: none;
+}
+
+.icon5 a:hover{
+    color: tomato;
+}
+.icon6:hover{
+    color: tomato;
+    cursor: pointer;
+}.icon7:hover{
+    color: tomato;
+    cursor: pointer;
+}.icon8:hover{
+    color: tomato;
+    cursor: pointer;
+}.icon9:hover{
+    color: tomato;
+    cursor: pointer;
+}.icon10:hover{
+    color: tomato;
+    cursor: pointer;
+}.icon11:hover{
+    color: tomato;
+    cursor: pointer;
+}.icon12:hover{
+    color: tomato;
+    cursor: pointer;
+} */
+
+.layout__main{
+    margin-left: 180px;
+    display: block;
+    width: 600px;
+    border-right: 1px solid #f5f8fa;
+    border-left: 1px solid #f5f8fa;
+   
+}
+.j12{
+    width: 50px;
+    height: 50px;
+    border-radius: 60%;
+    cursor: pointer;
+}
+.js{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    gap: 10px;
+    border: 2px solid #f5f8fa;
+    border-radius: 20px;
+   
+}
+.bar1{
+    height: 35px;
+    width: 350px;
+    border: 1px solid #e6ecf0;
+    border-radius: 20px;
+}
+.iconu{
+    display: flex;
+    gap: 15px;
+}
+.fy{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: 0;
+    cursor: pointer;
+    width: 300px;
+    height: 70px;
+}
+.fy:hover{
+    background-color: aqua;
+}
+.fl{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    right: 0;
+    cursor: pointer;
+    width: 300px;
+    height: 70px;
+}
+.fl:hover{
+    background-color: aqua;
+}
+
+.sh{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    position: fixed;
+    /* z-index: 1; */
+    width: 600px;
+    height: 70px;
+    opacity: 0.99;
+    background-color: #fff;
+    border-bottom: 1px solid #e6ecf0;
+    
+}
+.overallmain{
+    margin-top: 90px;
+}
+.ever{
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+    width: 300px;
+    /* border-bottom: 1px solid #e6ecf0; */
+}
+.ee{
+    background: #f5f8fa;
+    color: #1da0f2;
+    border-radius: 20px;
+    justify-content: center;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+.tweet{
+    display: flex;
+    border-bottom: 1px solid #e6ecf0;
+    padding: 10px;
+}
+.tweet:hover{
+    background: rgba(0, 0, 0, 0.03); 
+    cursor: pointer;
+}
+.tweet--author-logo{
+    width: 49px;
+    height: 49px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.tweet--header{
+    display: flex;
+    margin-bottom: 2px;
+    padding: 10px 15px;
+}
+
+.tweet--author-name{
+    font-size: 15px;
+    font-weight: 700;
+    color: #14171a;
+    margin-right: 5px;
+
+}
+.tweet--author-slug{
+    font-size: 15px;
+   color: #5b7083;
+}
+.tweet--publish-time{
+    margin-left: 5px;
+    color: #657786;
+}
+
+
+
+
+.layoutrightsidebar_container{
+    display: flex;
+    justify-content: right;
+    position:fixed;
+    right: 0;
+    top: 0;
+    margin-right:150px;
+    width: 350px;
+    height: 100vh;
+}
+.div1{
+    align-items: center;
+    border: none;
+    background: #f5f8fa;
+    border-radius: 30px;
+    width: 340px;
+    height: 50px;
+    /* padding: 10px; */
+    display: flex;
+    margin-bottom: 20px;
+    margin-right: 155px;
+    position: fixed;
+    right: 0;
+    top: 0;
+   
+}
+.div2{
+    margin-left: 15px;
+}
+.search{
+    border: none;
+    background: #f5f8fa;
+    margin-left: 10px;
+    padding: 10px;
+    width: 280px;
+    align-items: center;
+}
+
+.allleftbar{
+    position: absolute;
+    right: 0;
+    margin-top: 80px;
+    margin-right: 10px;
+}
+
+.trendsforyou{
+    border-radius: 15px;
+    background: #f5f8fa;
+    margin-bottom: 15px;
+    cursor: pointer;
+}
+.trendsforyou--block{
+    border-bottom: 1px solid #e6ecf0;
+    padding: 10px 15px;
+}
+.trendsforyou--block:hover{
+    background-color: rgb(220, 240, 240);
+}
+.trendsforyou--block:last-child{
+    border-bottom: none;
+}
+
+.trendheading{
+    font-size: 19px;
+    font-weight: bold;
+    color: #14171a;
+}
+
+.trendmetainfo{
+    font-size: 14px;
+    font-weight: 300;
+    color: #657786;
+}
+.trendforyouname{
+    font-size: 15px;
+    color: #14171a;
+    font-weight: bold;
+    margin-bottom: 5px;
+    margin-top: 2px;
+}
+.whotofollow{
+    background: #f5f8fa;
+    border-radius: 15px;
+}
+.followblock{
+    padding: 10px 15px;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #e6ecf0;
+}
+.followblock:hover{
+    background-color: rgb(220, 240, 240);
+}
+.followblock:last-child{
+    border-bottom: none;
+}
+
+.followhead{
+    font-size: 19px;
+    font-weight: bold;
+    color: #14171a;
+}
+
+.whotofollowauthorlogo{
+    width: 49px;
+    height: 49px;
+    border-radius: 50px;
+    margin-right: 10px;
+}
+.tofollowname{
+    font-size: 15px;
+    font-weight: 700;
+}
+.tofollowslug{ 
+    color: #657786;
+    font-size: 15px;
+}
+
+.whotofollowcontent{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.followbutton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #1da0f2;
+    color: #fff;
+    background-color: black;
+    font-size: 15px;
+    font-weight: 700;
+    border-radius: 15px;
+    height: 30px;
+    width: 90px;
+    /* padding: 5px; */
+    min-width: 67px;
+    text-align: center;
+}
+
+.followbutton:hover{
+    cursor: pointer;
+}.foot{
+    display: flex;
+    justify-content: center;
+    font-size: 8px;
+    gap: 3px;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+.foot a{
+    text-decoration: none;
+    color: rgb(83,100,113);
+}
