@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>X. It's what's happening/X</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="icon" href="twitterlogo.png">
+</head>
+<body>
+    <div class="container">
+
+        <div class="logo"><img src="tweet-removebg-preview.png" alt=""></div>
+    <div class="line">
+    <div class="now"><h1>Happening now</h1></div>
+    <div class="join"><h2>Join today.</h2></div>
+    <div class="btn">
+    <button class="btn1"> <p style="margin-top: 10px; margin-left: 25px;">Sign in with Google </p>
+    <img src="ggg-removebg-preview.png" style="width: 40px; height: 20px;margin-top: 10px"></button> </div> 
+    <div class="btnn"><button class="btn2"> 
+        <img src="appleee-removebg-preview.png" style="width: 50px; height: 25px; margin-top: 10px">
+    <h1 style="font-size: 15px; margin-top: 10px;">Sign in with Apple </h1> 
+</button></div>
+
+    <div class="mid">
+        <div class="line1"></div> Or <div class="line2"></div>
+       </div>
+       <div class="cbtn">
+        <a href="signinnn.html"><button class="createbtn">Create account</button></a></div>
+
+       <div class="by"><p>By signing up, you agree to the <a href="#">
+        <span class="ts">Terms of Service</span></a> 
+         and <br><a href="#">
+            <span class="pp">Privacy Policy</span></a>, including 
+            <a href="#"> 
+                <span class="cu">Cookie Use</span></a> .</p></div>
+
+
+         <div class="ah"><h3>Already have an account?</h3></div>
+         
+
+         <!-- <div class= "sbtn"> -->
+            <a href="#"> 
+                <button class="signbtn">Sign in</button> </a>
+        <!-- </div> -->
+            <footer class="foot">
+            <div>About</div>
+            <div>Download the X app</div>
+            <div> Help Center</div>
+            <div>Terms of Service</div>
+            <div>Privacy Policy</div>
+            <div>Cookie Policy</div>
+            <div>Acccessibility</div>
+            <div>Ads info</div>
+            <div>Blog</div>
+            <div>Status</div>
+            <div>Careers</div>
+            <div>Brand Resources</div>
+            <div>Advertising</div>
+            <div>Marketing</div>
+            <!-- <div> -->
+            <div>X for Business</div>
+            <div>Developers</div>
+            <div>Directory</div>
+            <div>Settings</div>
+            <div> © 2023 X Corp.</div>
+        <!-- </div> -->
+            </footer>
+    </div>
+</div>
+</body>
+</html>
